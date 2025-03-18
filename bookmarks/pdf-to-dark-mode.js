@@ -1,0 +1,1 @@
+javascript:(function(){var el = typeof viewer !== 'undefined' ? viewer : document.body; if (el.style.filter) { el.style.filter = ''; } else { el.style.filter = 'grayscale(1) invert(1) sepia(1) contrast(75%)'; }})()
